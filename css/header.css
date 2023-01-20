@@ -1,0 +1,143 @@
+.fb-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(36, 37, 38);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    z-index: 1;
+}
+
+.left-section {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.fb-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    background-color: white;
+    border-radius: 40px;
+}
+.fb-logo {
+    width: 40px;
+}
+
+.search-bar {
+    margin-left: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 59, 60);
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-icon {
+    width: 23px;
+    margin-right: 3px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: Arial;
+    margin-right: 10px;
+    color: #ffffff;
+    outline-width: 0;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-right: 150px;
+    padding-left: 140px;
+}
+
+.right-section {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.header-right-icons {
+    width: 43px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(58, 59, 60);
+    margin-right: 8px;
+}
+
+.menu-icon {
+    width: 25px;
+    padding: 5px 10px 5px 9px;
+}
+
+.messenger-icon {
+    border-radius: 30px;
+    width: 25px;
+    padding: 8px 10px 6px 10px;
+}
+
+.bell-icon {
+    border-radius: 30px;
+    width: 26px;
+    padding: 11px 10px 11px 10px;
+}
+
+.header-right-icon-profile {
+    width: 43px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.profile-icon {
+    border-radius: 30px;
+    width: 40px;
+}
+
+.mid-section-icons {
+    background-color: rgb(36, 37, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    cursor: pointer;
+    padding: 8px 10px 8px 10px;
+    border-radius: 6px;
+}
+
+.mid-section-icons:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.home-icon,
+.marketplace-icon,
+.groups-icon,
+.gaming-icon {
+    width: 26px;
+}
